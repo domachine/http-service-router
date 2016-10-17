@@ -1,9 +1,16 @@
 # http-service-router
 
+[![Standard - JavaScript Style Guide](https://img.shields.io/badge/code%20style-standard-brightgreen.svg)](http://standardjs.com/)
+[![npm version](https://badge.fury.io/js/http-service-router.svg)](https://badge.fury.io/js/http-service-router)
+
 This is a super tiny router to be used in a microservice-like environment. It parses a given URL and
 returns a matching object. It also calculates the URL with the part for the match stripped. This is
 very powerful when being combined with express's
 [path-to-regexp](https://www.npmjs.org/package/path-to-regexp).
+
+## Setup
+
+    $ npm i http-service-router
 
 ## Contribute
 
