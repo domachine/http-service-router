@@ -1,0 +1,39 @@
+{
+  "name": "http-service-router",
+  "version": "1.0.0",
+  "description": "A tiny ~25L http-router that integrates well with a microservice-like architecture.",
+  "main": "index.js",
+  "ava": {
+    "files": [
+      "**/*_test.js"
+    ]
+  },
+  "scripts": {
+    "test": "standard && ava"
+  },
+  "keywords": [
+    "http",
+    "router",
+    "microservices",
+    "microservice",
+    "service"
+  ],
+  "author": "Dominik Burgdörfer <db@domachine.de>",
+  "license": "ISC",
+  "devDependencies": {
+    "ava": "^0.16.0",
+    "standard": "^8.4.0"
+  },
+  "dependencies": {
+    "ava": "^0.16.0",
+    "standard": "^8.4.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/domachine/http-service-router.git"
+  },
+  "bugs": {
+    "url": "https://github.com/domachine/http-service-router/issues"
+  },
+  "homepage": "https://github.com/domachine/http-service-router#readme"
+}
